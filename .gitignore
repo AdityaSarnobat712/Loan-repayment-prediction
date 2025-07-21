@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.env/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model outputs and temporary files
+*.log
+*.cache
+*.tmp
+
+# Large datasets (optional, include only the main dataset)
+data/*.csv
+!data/Delinquency_prediction_dataset-_1_.csv
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Other temporary files
+*.bak
+*.swp
+*~
